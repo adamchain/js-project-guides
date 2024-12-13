@@ -2,13 +2,15 @@
 ---
 A beginner-to-intermediate JavaScript project/guide generator designed to help you build better projects by focusing more on things like execution order and control flow, as opposed to syntax memorization.
 ---
+
+Built on OPENAI GPT-4o-2024-08-06 model, structured output. Auto-downloaded PDFs right in your project folder.
+
 ![editor_POV.png](https://github.com/adamchain/js-via-first-principles/blob/main/editor_screenshot.png)
 
-Built on OPENAI GPT-4o-2024-08-06 model, structured output.
+##Why I Built This
+I'm a beginner who started learning to code in November. Early on, I realized that focusing on the "why"—understanding the purpose—rather than just the "how" of implementation helped me learn more effectively.
 
-Why I Built This: I'm a rookie. I started learning to code in November, but quickly developed a personal opinion that focusing on the "why" as opposed to the "how" helped me learn. 
-I built this for myself, for the reasons above, but after receiving requests to share it publicly, I decided to publish it.
-This is my first repository, so feedback is highly appreciated: achain123@gmail.com.
+I initially built this project for myself to reinforce that approach. However, after receiving requests to share it publicly, I decided to publish it here. This is my first repository, and I welcome any feedback or suggestions! Feel free to reach out at achain123@gmail.com.
 
 
 #Dependencies:
