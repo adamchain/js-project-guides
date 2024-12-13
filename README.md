@@ -1,16 +1,16 @@
 #JS Project Guides
+---
+A beginner-to-intermediate JavaScript project/guide generator designed to help you build better projects by focusing more on things like execution order and control flow, as opposed to syntax memorization.
+---
 
-A beginner-to-intermediate JavaScript project guide generator designed to help you build better projects, step by step.
+Built on OPENAI GPT-4o-2024-08-06 model, structured output.
 
-Powered by the OPENAI GPT-4o-2024-08-06 model and focused on delivering structured, logical outputs.
+Why I Built This: I'm a rookie. I started learning to code in November, but quickly developed a personal opinion that focusing on the "why" as opposed to the "how" helped me learn. 
+I built this for myself, for the reasons above, but after receiving requests to share it publicly, I decided to publish it.
+This is my first repository, so feedback is highly appreciated: achain123@gmail.com.
 
-#Why I Built This
 
-I initially created this tool for personal use, but after receiving requests to share it publicly, I decided to publish it.
-This is my first public repository, so feedback is highly appreciated! Feel free to reach out at achain123@gmail.com.
-
-#Dependencies
-
+#Dependencies:
 To get started, ensure you have the following installed:
 	•	npm
 	•	node
@@ -30,4 +30,4 @@ To get started, ensure you have the following installed:
   "output": "State Management: Task Completion"
 }
 
-Thank you for exploring this project. Whether you’re just starting out or sharpening your JavaScript skills, I hope this tool inspires your next creation! Feedback and suggestions are always welcome.
+Thank you for exploring my first little program. Whether you’re just starting out like me or not, I hope this tool inspires your next creation! Feedback and suggestions are always welcome.
