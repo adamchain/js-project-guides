@@ -2,7 +2,7 @@
 ---
 A beginner-to-intermediate JavaScript project/guide generator designed to help you build better projects by focusing more on things like execution order and control flow, as opposed to syntax memorization.
 ---
-[editor_POV.png](https://github.com/adamchain/js-via-first-principles/blob/main/editor_screenshot.png)
+![editor_POV.png](https://github.com/adamchain/js-via-first-principles/blob/main/editor_screenshot.png)
 
 Built on OPENAI GPT-4o-2024-08-06 model, structured output.
 
