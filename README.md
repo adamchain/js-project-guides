@@ -19,11 +19,11 @@ To get started, ensure you have the following installed:
 	•	jspdf
 
 #Features
-	1.	Random Project Ideas: Generate step-by-step project guides for beginner-to-intermediate JavaScript projects.
-	2.	Logic-Driven Outlines: Focus on the reasoning behind each component and why it’s needed—minimal code hints for better learning.
-	3.	Export Options: Automatically downloads project outlines as PDF and TXT for offline use.
+1. Random Project Ideas: Generate step-by-step project guides for beginner-to-intermediate JavaScript projects.
+2. Logic-Driven Outlines: Focus on the reasoning behind each component and why it’s needed—minimal code hints for better learning.
+3. Export Options: Automatically downloads project outlines as PDF and TXT for offline use.
 
-#Sample Output
+#Sample Output (single step)
 
 {
   "Next": "For user interaction, such as marking tasks as completed, you will need to update the task's state. You can add a 'completed' property to each task object in the array and toggle this value when a task is clicked. Conditional statements help manage these state changes.",
