@@ -12,17 +12,17 @@ This is my first repository, so feedback is highly appreciated: achain123@gmail.
 
 
 #Dependencies:
-To get started, ensure you have the following installed:
-	•	npm
-	•	node
-	•	openai
-	•	zod
-	•	jspdf
+To get started, ensure you have the following installed: 
+npm
+node
+openai
+zod
+jspdf
 
 #Features
 1. Random Project Ideas: Generate step-by-step project guides for beginner-to-intermediate JavaScript projects.
 2. Logic-Driven Outlines: Focus on the reasoning behind each component and why it’s needed—minimal code hints for better learning.
-3. Export Options: Automatically downloads project outlines as PDF and TXT for offline use.
+3. PDFs: A PDF copy of your guide will be automatically downloaded & stored in whatever folder you are currently in  
 
 #Sample Output (single step)
 
