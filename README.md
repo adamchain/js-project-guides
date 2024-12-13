@@ -12,8 +12,8 @@ npm node openai zod jspdf
 Features:
 1. Generate beginner-intermediate project ideas step-by-step outline
 2. Outlines focused on logic/reason & why a particular component is needed, minimal code hints
-
-E.g. {
+---
+Example {
       "explanation": "For user interaction, such as marking tasks as
 completed, you will need to update the task's state. You can add a
 'completed' property to each task object in the array and toggle this
@@ -21,6 +21,6 @@ value when a task is clicked. Conditional statements help manage these
 state changes.",
       "output": "State Management: Task Completion"
     }
-   
+-- 
 4. Output auto-downloads project outlines as PDF & TXT
    
