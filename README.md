@@ -15,8 +15,8 @@ I initially built this project for myself to reinforce that approach. However, a
 
 #Dependencies:
 To get started, ensure you have the following installed: 
-npm
-node
+npm (https://docs.npmjs.com/)
+node (https://nodejs.org/en) 
 openai
 zod
 jspdf
@@ -27,9 +27,9 @@ jspdf
 3. PDFs: A PDF copy of your guide will be automatically downloaded & stored in whatever folder you are currently in  
 
 #How to use:
-npm install openai zod jspdf fs
-get openAI API key: https://openai.com/index/openai-api/ 
-on line 49, add whatever js concepts you want to practice, so output can include them in the project. Pre-set to "random" as fallback
+1. npm install openai zod jspdf fs
+2. get openAI API key: https://openai.com/index/openai-api/
+3. on line 49, add whatever js concepts you want to practice, so output can include them in the project. Pre-set to "random" as fallback
 
 #Step-by-step instructions for early beginners:
 1. download/open VS Code
