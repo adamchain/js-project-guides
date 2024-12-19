@@ -52,13 +52,26 @@ async function getJsGuide() {
         // create PDF
         const doc = new jsPDF();
         const responseString = JSON.stringify(jsGuideResponse, null, 2); // Format JSON
+        const pageHeight = doc.internal.pageSize.height; // Page height in points
+        let cursorY = 10; // Start Y position
+
         const lines = doc.splitTextToSize(responseString, 180); // Wrap text within page width
-        doc.text(lines, 10, 10); // Add text to PDF
+
+        lines.forEach((line) => {
+            if (cursorY + 10 > pageHeight) { // Check if line exceeds page height
+                doc.addPage(); // Add a new page
+                cursorY = 10; // Reset Y position
+            }
+            doc.text(line, 10, cursorY); // Add text to the current position
+            cursorY += 10; // Move cursor down for the next line
+        });
+
         const pdfFileName = "JavaScript_Guide.pdf";
 
         // save PDF
         doc.save(pdfFileName);
         console.log(`PDF saved as ${pdfFileName}`);
+        
     } catch (error) {
         console.error("Error fetching JavaScript guide:", error);
     }
