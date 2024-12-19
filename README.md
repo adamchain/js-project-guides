@@ -5,7 +5,7 @@ A beginner-to-intermediate JavaScript project/guide generator designed to help y
 
 Built on OPENAI GPT-4o-2024-08-06 model, structured output. Auto-downloaded PDFs right in your project folder.
 
-![editor_POV.png](https://github.com/adamchain/js-via-first-principles/blob/main/editor_screenshot.png)
+![editor_POV.png](https://github.com/adamchain/js-via-first-principles/blob/main/example_output.png)
 
 ##Why I Built This
 I'm a beginner who started learning to code in November. Early on, I realized that focusing on the "why"—understanding the purpose—rather than just the "how" of implementation helped me learn more effectively.
